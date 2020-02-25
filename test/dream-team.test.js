@@ -7,7 +7,7 @@ Object.freeze(assert);
 const createDreamTeam = require('../src/dream-team.js');
 
 
-describe('Dream team', () => {
+describe.only('Dream team', () => {
   // Presence requirement
 
   describe('variable presence', () => {
