@@ -6,7 +6,7 @@ Object.freeze(assert);
 
 const calculateHanoi = require('../src/hanoi-tower.js');
 
-describe('Hanoi tower', () => {
+describe.only('Hanoi tower', () => {
     //Presence requirement
     describe('variable presence', () => {
         it.optional('function calculateHanoi exists', () => {
